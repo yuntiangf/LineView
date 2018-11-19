@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lineview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:scrollbars="none" >
+
+            <!-- <com.example.lineview.LineView
+                android:id="@+id/lineview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:padding="5dip"
+                lineview:circle_radius="2dp"
+                lineview:circle_stroke="1dp"
+                lineview:line_stroke="1dp"
+                lineview:text_space="2dp"/> -->
+                
+                
+                <com.example.lineview2.LineView2 
+                    android:id="@+id/lineview"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dip"
+	                android:padding="5dip"
+	                lineview:circle_radius="2dp"
+	                lineview:circle_stroke="1dp"
+	                lineview:line_stroke="1dp"
+	                lineview:text_space="2dp">
+                </com.example.lineview2.LineView2>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>
